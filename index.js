@@ -1,5 +1,4 @@
 //Objects
-
 const circle = {
   //Properties
   radius: 1,
@@ -37,7 +36,6 @@ const circles = createCircle(1);
 circle.draw();
 
 // Object can also be created using function Constructor
-
 function Circle(radius) {
   //this keyword refers to the object that is executing this piece of code
   this.radius = radius;
@@ -76,7 +74,6 @@ const Income = {
   },
 };
 delete Income.rate;
-console.log(Income);
 //Primitive Types
 let x = 50;
 let y = x;
@@ -88,7 +85,6 @@ const g = z;
 //Constructor Function
 
 //Exercise
-
 function StopWatch() {
   let duration = 0,
     startTime = 0,
